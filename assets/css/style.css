@@ -335,6 +335,9 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
+.avatar-box img{
+  border-radius: 10%;
+}
 
 .info-content .name {
   color: var(--white-2);
@@ -440,7 +443,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 28px;
 }
 
 
@@ -492,19 +495,19 @@ main {
 
 
 /*-----------------------------------*\
-  #ABOUT
+  #sobre
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.sobre .article-title { margin-bottom: 15px; }
 
-.about-text {
+.sobre-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.sobre-text p { margin-bottom: 15px; }
 
 
 
@@ -1382,12 +1385,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #ABOUT
+   * #sobre
    */
 
-  .about .article-title { margin-bottom: 20px; }
+  .sobre .article-title { margin-bottom: 20px; }
 
-  .about-text { margin-bottom: 40px; }
+  .sobre-text { margin-bottom: 40px; }
 
   /* service */
 
@@ -1581,7 +1584,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * ABOUT
+   * sobre
    */
 
   /* testimonials modal */
@@ -1720,7 +1723,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * ABOUT
+   * sobre
    */
 
   /* service */
@@ -1874,7 +1877,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-	 * RESUME
+	 * Experiencia
 	 */
 
   .timeline-text { max-width: 700px; }
